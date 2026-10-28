@@ -1,6 +1,6 @@
 document.getElementById("submit").addEventListener("click", function () {
     let enteredPassword = document.getElementById("password").value;
-
+//commebyy
     chrome.storage.sync.get("password", function (data) {
         if (enteredPassword === data.password) {
             
